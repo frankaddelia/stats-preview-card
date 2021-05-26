@@ -3,6 +3,7 @@
 /*** primary colors ***/
 /*** neutral colors ***/
 body {
+  background-color: #090b1a;
   font-size: 15px;
 }
 
@@ -20,7 +21,7 @@ h2.stats {
 }
 
 .container {
-  border: 1px solid red;
+  background-color: #1b1938;
   margin: 0 auto;
   max-width: 1440px;
 }
