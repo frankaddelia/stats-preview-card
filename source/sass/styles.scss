@@ -1,3 +1,6 @@
+// sass ./source/sass/styles.scss ./build/css/styles.css
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -5,4 +8,20 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.container {
+    border: 1px solid red;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container img {
+    width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 300px;
+    }
 }

@@ -7,4 +7,20 @@
   color: #3e52a3;
 }
 
+.container {
+  border: 1px solid red;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.container img {
+  width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 300px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
