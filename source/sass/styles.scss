@@ -40,12 +40,28 @@ h2.stats {
     width: 100%;
 }
 
+.desktop-header {
+    display: block;
+}
+
 .main-paragraph {
     color: $slightly-transparent-white;
+}
+
+.mobile-header {
+    display: none;
 }
 
 @media screen and (max-width: 375px) {
     .container {
         width: 300px;
+    }
+
+    .desktop-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
     }
 }
