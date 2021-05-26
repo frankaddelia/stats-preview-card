@@ -18,8 +18,22 @@ body {
     font-size: 15px;
 }
 
+h1 {
+    color: $white;
+}
+
 h2.stats {
     color: $white;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .attribution {
@@ -33,6 +47,9 @@ h2.stats {
 
 .container {
     background-color: $dark-desaturated-blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
     margin: 0 auto;
     max-width: 1440px;
 }
@@ -53,9 +70,14 @@ h2.stats {
     display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
+    h1 {
+        text-align: center;
+    }
+
     .container {
-        width: 300px;
+        flex-direction: column;
+        width: 375px;
     }
 
     .desktop-header {
