@@ -42,14 +42,25 @@ h2.stats {
 .container {
     background-color: $dark-desaturated-blue;
     border-radius: 10px;
+    color: $transparent-white;
     display: flex;
     flex-direction: row-reverse;
     margin: 0 auto;
     max-width: 1440px;
-}
+    
+    img {
+        width: 100%;
+    }
+    
+    .container-body {
+        font-family: 'Inter', sans-serif;
+        padding: 25px 50px;
+        text-align: center;
 
-.container img {
-    width: 100%;
+        div {
+            text-transform: uppercase;
+        }
+    }
 }
 
 .desktop-header {
@@ -89,10 +100,6 @@ h2.stats {
             border-top-right-radius: 10px;
             border-bottom-right-radius: 0;
         }
-    }
-
-    h1 {
-        text-align: center;
     }
 
     .container {
