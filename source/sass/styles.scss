@@ -21,7 +21,9 @@ body {
 h1 {
     color: $white;
     font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
     font-weight: bold;
+    line-height: 1.2em;
 }
 
 h2.stats {
@@ -86,6 +88,8 @@ h2.stats {
 
 .main-paragraph {
     color: $slightly-transparent-white;
+    font-size: 20px;
+    line-height: 1.7em;
 }
 
 .mobile-header {
