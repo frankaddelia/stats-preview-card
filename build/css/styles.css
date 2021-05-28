@@ -45,11 +45,14 @@ h2.stats {
 }
 .container .container-body {
   font-family: "Inter", sans-serif;
+  margin: 50px;
   padding: 25px 50px;
-  text-align: center;
 }
 .container .container-body div {
   text-transform: uppercase;
+}
+.container .container-body h1 {
+  margin-top: 0;
 }
 .container .container-body .stat-footer {
   letter-spacing: 0.1em;
@@ -85,9 +88,17 @@ h2.stats {
   color: #aa5cdb;
 }
 
+.stats-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 1000px) {
   .container {
     flex-direction: column;
+    padding: 0;
     text-align: center;
     width: 375px;
   }
