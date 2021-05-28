@@ -55,6 +55,10 @@ h2.stats {
 
 .img-header {
   background: #aa5cdb;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .img-header img {
   border-top-left-radius: 0;
@@ -78,6 +82,12 @@ h2.stats {
 }
 
 @media screen and (max-width: 1000px) {
+  .img-header {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+  }
   .img-header img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 0;
