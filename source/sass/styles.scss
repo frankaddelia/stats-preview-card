@@ -62,6 +62,10 @@ h2.stats {
         div {
             text-transform: uppercase;
         }
+
+        .stat-footer {
+            letter-spacing: 0.1em;
+        }
     }
 }
 
@@ -87,7 +91,7 @@ h2.stats {
 }
 
 .main-paragraph {
-    color: $slightly-transparent-white;
+    color: $transparent-white;
     font-size: 20px;
     line-height: 1.7em;
 }

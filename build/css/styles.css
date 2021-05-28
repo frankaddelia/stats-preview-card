@@ -50,6 +50,9 @@ h2.stats {
 .container .container-body div {
   text-transform: uppercase;
 }
+.container .container-body .stat-footer {
+  letter-spacing: 0.1em;
+}
 
 .desktop-header {
   display: block;
@@ -72,7 +75,7 @@ h2.stats {
 }
 
 .main-paragraph {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 20px;
   line-height: 1.7em;
 }
