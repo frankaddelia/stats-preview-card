@@ -15,6 +15,7 @@ $transparent-white: hsla(0deg, 0%, 100%, 0.6);
 
 body {
     background-color: $very-dark-blue;
+    color: $white;
     font-size: 15px;
 }
 
@@ -100,20 +101,21 @@ h2.stats {
 }
 
 @media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        width: 375px;
+    }
+    
+    .desktop-header {
+        display: none;
+    }
+    
     .img-header {
         border-top-left-radius: 10px;
         border-bottom-left-radius: 0;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 0;
-    }
-
-    .container {
-        flex-direction: column;
-        width: 375px;
-    }
-
-    .desktop-header {
-        display: none;
     }
 
     .mobile-header {
