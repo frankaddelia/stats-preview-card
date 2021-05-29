@@ -59,7 +59,7 @@ h2.stats {
 }
 
 .desktop-header {
-  background-image: linear-gradient(rgba(156, 2, 252, 0.5), rgba(156, 2, 252, 0.5)), url("../../images/image-header-desktop.jpg");
+  background-image: linear-gradient(rgba(112, 30, 162, 0.6), rgba(112, 30, 162, 0.6)), url("../../images/image-header-desktop.jpg");
   background-size: cover;
   display: block;
   height: inherit;
@@ -115,10 +115,10 @@ h2.stats {
   }
 
   .mobile-header {
-    background-image: linear-gradient(rgba(156, 2, 252, 0.5), rgba(156, 2, 252, 0.5)), url("../../images/image-header-mobile.jpg");
+    background-image: linear-gradient(rgba(112, 30, 162, 0.6), rgba(112, 30, 162, 0.6)), url("../../images/image-header-mobile.jpg");
     background-size: cover;
     display: block;
-    height: 250px;
+    height: 275px;
   }
 }
 
